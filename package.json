@@ -1,0 +1,18 @@
+
+{
+  "name": "sonarqube-github-actions-demo",
+  "version": "1.0.0",
+  "description": "Node.js application for SonarQube integration demo",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage --coverageReporters=lcov --coverageReporters=text"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
