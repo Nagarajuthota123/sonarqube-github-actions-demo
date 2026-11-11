@@ -68,10 +68,10 @@ jobs:
             -Dsonar.projectName="Demo-project"
             -Dsonar.projectVersion=1.0
             -Dsonar.sources=src
-            -Dsonar.tests=tests
+            -Dsonar.tests=test
             -Dsonar.test.inclusions=tests/**/*.test.js
             -Dsonar.exclusions=node_modules/**,coverage/**
-            -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+            -Dsonar.javascript.lcov.reportPaths=covSerage/lcov.info
             -Dsonar.sourceEncoding=UTF-8
         #Step 7: sonarqube quality gate check
       - name: sonarqube quality gate check
