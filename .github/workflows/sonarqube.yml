@@ -78,5 +78,5 @@ jobs:
         uses: sonarsource/sonarqube-quality-gate-action@v1.2.0
         timeout-minutes: 5
         env:
-          host-url: ${{ secrets.SONAR_HOST_URL }}
-          token: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
